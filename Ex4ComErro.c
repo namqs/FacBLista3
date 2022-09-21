@@ -43,7 +43,7 @@ void main ()
     printf("Digite um numero: ");
     scanf("%d", &n1);
 
-    if (n1<1000 && n1>99)
+    if ((n1<1000) && (n1>99))
     { //separando os algorismos
       CentN1 = n1/100;
       DezN1 = (n1%100)/10;
