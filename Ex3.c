@@ -28,6 +28,8 @@ void main ()
     printf("Digite a letra inicial da sua figura geometrica: ");
     fflush(stdin); // pra limpar o buffer e vc poder inserir o char sem problemas
     scanf("%c", &Figura);
+  
+    Figura = toupper (Figura); //convertendo pra maiusculo
 
     switch (Figura)
     {
